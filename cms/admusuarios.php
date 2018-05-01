@@ -10,7 +10,7 @@
         <div id="box_principal"> 
             <div id="cabecalho">
                 <div id="box_title">
-                    <h2>Teste</h2>
+                    <h2>CMS - Sistema de Gerenciamento do Site</h2>
                 </div>
                 
                 <div id="box_icon">
