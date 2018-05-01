@@ -1,0 +1,1003 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #7F664E;
+}
+
+/* Código fonte da página HOME e GERAL */
+
+header{
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+#box_transparencia{
+    opacity: 0.6;
+    width: 100%;
+    height: 140px;
+    background-color: black;
+}
+
+#transp_element{
+    position: absolute;
+    width: 100%;
+    height:140px;
+    margin-top: -130px;
+}
+
+#box_header{
+    width: 1700px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#box_logo{
+    width: 160px;
+    height: 140px;
+    margin-left: 20px;
+    margin-top: -10px;
+    float: left;
+    background-color: chocolate;
+    background-image: url(../imagens/logohill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#box_menu{
+    width: 840px;
+    height: 125px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    
+}
+
+/*
+.submenu{
+	width:0px;
+	height:0px;
+	background-color:#ADD8E6;
+	
+	overflow:hidden;
+	opacity:0;
+	transition:1s;
+}
+
+
+.item_menu:hover .submenu{
+    width:200px;
+	height:500px;
+	opacity:1;
+	transition:2s;
+	overflow:visible;
+}
+*/
+
+
+.item_menu{
+    width: 120px;
+    height: 125px;
+    float: left;
+    font-size: 21px;
+    line-height: 9.00;
+    text-align: center;
+    font-style: oblique;
+    overflow: hidden;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: #BF765E;
+}
+
+#box_cadastro{
+    width: 630px;
+    height: 125px;
+    margin-top: 5px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+}
+
+
+:focus{
+   outline-color: chocolate;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    background: #f2f2f2;
+    border: 0;
+}
+
+
+#box_usuario{
+    width: 200px;
+    height: 50px; 
+    float: left;
+    margin-left: 90px;
+    padding-top: 60px;
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+.usuario_input{
+    width: 200px;
+    height: 30px;
+    
+}
+
+#box_senha{
+    width: 200px;
+    height: 50px; 
+    float: left;
+    margin-left: 5px;
+    padding-top: 60px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#box_botao{
+    width: 70px;
+    height: 50px; 
+    float: left;
+    margin-left: 5px;
+    padding-top: 82px;
+
+}
+
+#input_botao{
+    width: 35px;
+    height: 32px;
+    text-align: center; 
+}
+
+
+.box_input{
+    width: 200px;
+    height: 50px; 
+    float: left;
+    clear: both;
+    margin-left: 5px;
+    background-color: darkgray;
+}
+
+#alinhar{
+    width: 1600px;
+    height: 140px;
+}
+
+
+#main{
+    width: 1600px;
+    height: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+#box_slider{
+    width: 1600px;
+    height: 400px;
+}
+
+#botao_voltar, #botao_avancar{
+    z-index: 10;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    text-decoration: none;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 77px 10px;
+}
+#botao_avancar{
+   margin-left: 1422px;
+}
+
+
+#conteudo_slider{
+    width: 1600px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+    
+#conteudo_slider ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#conteudo_slider ul li{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    z-index: 1px;
+    overflow: hidden;
+}
+
+#transp_menu_secundario{
+    opacity: 0.6;
+    width: 200px;
+    height: 1150px;
+    background-color: black;
+}
+
+
+#elemento_transp{
+    position: absolute;
+    width: 200px;
+    height:200px;
+    margin-top: -1100px;
+}
+
+#box_menu_segundario{
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    font-size: 21px;
+    font-style: oblique;
+    color: white;
+    opacity: 10;
+    
+}
+
+.menu_secundario{
+    width: 200px;
+    height: 50px; 
+    margin-bottom: 5px;
+    
+}
+
+
+
+#box_conteudo{
+    width: 1400px;
+    height: 1150px;
+    float: left;
+    
+}
+
+.box_organizadora{
+    width: 1400px;
+    height: 570px;
+    margin-bottom: 8px;
+    
+    float: left;
+}
+
+.box_produto{
+    width: 460px;
+    height: 570px;
+    margin-left: 5px;
+    float: left;
+    
+}
+
+.produto_foto{
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: crimson;
+    background-image: url("../imagens/produto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-image: url(../imagens/coffee3.jpg);
+}
+
+.nome{
+    width: 430px;
+    height: 50px;
+    font-style: oblique;
+    font-size: 25px;
+    line-height: 2.00;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5E4733;
+    margin-top: 5px;
+}
+
+.descricao{
+    width: 430px;
+    height: 50px;
+    font-style: oblique;
+    font-size: 25px;
+    line-height: 2.00;
+    color: white;
+    border-color: #E7E8DA;
+    background-color: #453425;
+    margin-top: 5px;
+}
+
+.preco{
+    width: 430px;
+    height: 50px;
+    font-style: oblique;
+    font-size: 25px;
+    line-height: 2.00;
+    color: white;
+    border-bottom-right-radius: 30px;
+    border-color: #E7E8DA;
+    background-color: #5E4733;
+    margin-top: 5px;
+}
+
+.detalhes{
+    width: 90px;
+    height: 60px;
+    margin-left: 360px;
+    margin-top: 5px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 21px;
+    line-height: 3.00;
+   
+    border-radius: 15px;
+    background-color: #453425;
+}
+
+#rede_social{
+    width: 150px;
+    height: 450px;
+    margin-left: 1400px;
+    position: fixed;
+}
+
+#box_facebook{
+    width: 150px;
+    height: 120px;
+    background-image: url(../imagens/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#box_google{
+    width: 150px;
+    height: 120px;
+    background-image: url(../imagens/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5px;
+}
+
+#box_instagram{
+    width: 150px;
+    height: 120px;
+    background-image: url(../imagens/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5px;
+}
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/footer22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    z-index: 1;
+}
+
+#box_transparencia_footer{
+    opacity: 0.2;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+#transp_footer{
+    position: absolute;
+    width: 100%;
+    height:140px;
+    margin-top: -400px;
+}
+
+
+#elementosFooter{
+    width:1585px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.box_footer{
+    width: 528px;
+    height: 400px;
+    float: left;
+   
+}
+
+#logo_footer{
+    width: 200px;
+    height: 195px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer_info{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.title_footer_info{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.text_footer_info{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+#icon_tel{
+    float: left;
+    
+}
+
+#tel_footer{
+    float: left;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#icon_email{
+    float: left;
+    clear: both;
+}
+
+#aqui_tem{
+    width: 300px;
+    height: 100px;
+    margin-top: 150px;
+    background-image: url(../imagens/aquitem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+#email_footer{
+    float: left;
+    color: aliceblue;
+    margin-top: 10px; 
+    margin-left: 5px;
+    font-style: oblique;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#direitos{
+    color: white;
+    font-style: oblique;
+    font-size: 18px;
+    
+}
+
+/* Código fonte da página FALE CONOSCO */
+
+
+#box_conteudo_conosco{
+    width: 1600px;
+    height:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#titulo_decoracao{
+    width: 528px;
+    height: 100px;
+    line-height: 3.00;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+
+.texto_decoracao{    
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+}
+
+#fale_conosco{
+    width: 730px;
+    height: 930px;
+    margin-left: 425px;
+    margin-top: 70px;
+    border-radius: 90px;
+    background-color: #453425;
+}
+
+#titulo_dados{
+    width: 800px;
+    height: 90px; 
+    font-size: 40px;
+    line-height: 2.00;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    overflow: hidden;
+    margin-left: -40px;
+}
+
+.box_dados{
+    width: 500px;
+    height: 70px; 
+    margin-top: 5px;
+    margin-left: 160px;
+    color: white;
+    
+}
+
+.organizadora_dados{
+    width: 180px;
+    height: 70px; 
+    float: left;
+    font-size: 20px;
+    line-height: 2.00;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    overflow: hidden;
+    margin-left: -85px;
+}
+
+.dados_input{
+    width: 300px;
+    height: 30px;  
+    margin-top: 5px;
+}
+
+textarea{
+    width: 300px;
+    height: 60px;
+}
+
+.input_radio{
+    margin-top: 15px;
+    color: white;
+}
+
+
+#box_dados{
+    width: 70px;
+    height: 50px; 
+    float: left;
+   
+    padding-top: 83px;
+   
+}
+
+#input_botao_dados{
+    width: 100px;
+    height: 32px;
+    text-align: center; 
+    margin-left: 340px;
+     
+}
+
+/* Código fonte da página HISTORIA */
+
+
+
+
+#linha_hist_um{
+    width: 100%;
+    height: 700px; 
+    background-color: #555950;
+    background-image: url(../imagens/hist6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+/*    filter: blur(3px);*/
+    padding-top: 200px;
+}
+
+#box_transparencia_hist{
+    opacity: 0.6;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #CC9359;
+    
+}
+
+#transp_element_hist{
+    width: 1000px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -500px;
+   
+}
+
+#conteudo_hist{
+    width: 1000px;
+    height: 500px;  
+    position: absolute;
+}
+
+#title_hist{
+    color: white;
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#text_hist{
+    color: white;
+    font-style: oblique;
+    font-size:27px;
+    text-align: center;
+}
+
+/* Código fonte da página LOJAS*/
+
+
+
+#photo_rua{
+    width: 100%;
+    height:1000px;
+    background-color: gainsboro;
+    background-image: url(../imagens/berrini3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-top: 350px;
+}
+
+#box_transparencia_loja{
+    opacity: 0.5;
+    width: 1000px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px; 
+    background-color: black;
+    
+}
+
+#transp_element_loja{
+    width: 1000px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#conteudo_loja{
+    width: 1000px;
+    height: 300px;  
+    margin-top: -300px;
+    position: absolute;
+}
+
+#title_loja{
+    color: white;
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#text_loja{
+    color: white;
+    font-style: oblique;
+    font-size:27px;
+    text-align: center;
+}
+
+
+
+/* Código fonte PROMOÇÕES */
+
+#section_promocoes{
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    background-image: url(../imagens/prodmes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#box_conteudo_promo{
+    width: 100%;
+    height: 700px; 
+    padding-top: 100px;
+    background-color: #7F664E;
+}
+
+#elementos_promo{
+    width: 1600px;
+    height: 605px; 
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#box_promo{
+    width: 1600px;
+    height: 600px;
+    background-color: #7F664E;
+    
+}
+
+.photo_promo{
+    width: 395px;
+    height: 350px;
+    margin-right: 5px;
+    float: left;
+    background-image: url(../imagens/prodpromo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+
+.linha_promo{
+    width: 1600px;
+    height:50px;  
+    clear: both;
+    margin-top: 5px;
+}
+
+.promo_info{
+    width: 395px;
+    height:50px; 
+    float: left;
+    margin-right: 5px;
+    background-color:  #7F664E;
+    border-top-right-radius: 10px;
+    line-height: 45px;
+    border-color: coral;
+    font-size: 21px;
+    font-style: oblique;
+    color: white;
+}
+
+#promo_text{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: white;
+   
+}
+
+
+.preco_promo{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 395px;
+    height: 80px;
+    transition: .5s ease;
+    margin-top: 270px;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    line-height: 2.0;
+    text-align: center;
+    text-decoration: underline overline;
+}
+
+.photo_promo:hover .preco_promo {
+  opacity: 1;
+}
+
+
+/* Código Fonte PRODUTO DO MES*/
+
+#section_mes{
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/teste2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#conteudo_mes{
+    width: 100%;
+    height: 1200px;
+    background-color: honeydew;
+}
+
+#linha_mes{
+    width: 100%;
+    height: 300px;
+    background-image: url(../imagens/black1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#text_mes{
+    width: 1500px;
+    height: 300px; 
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+
+#linha_photo{
+    width: 100%;
+    height: 600px;
+    background-color: #7F664E
+}
+
+
+#descric_prod_photo{
+    width: 100%;
+    height: 490px; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: pink;
+    background-image: url(../imagens/especial3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    padding-top: 505px;
+}
+
+.preco_mes{
+   background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    height: 95px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 35px;
+    line-height: 3.0;
+    text-align: center;
+    text-decoration: underline overline;
+    font-style: oblique;
+}
+
+#descric_prod_photo:hover .preco_mes {
+  opacity: 1;
+}
+
+
+/* Código Fonte SERVIÇOS*/
+
+#box_leitura{
+    width: 100%;
+    height: 350px; 
+    background-color: aliceblue;
+    background-image: url(../imagens/livraria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#leitura_descricao{
+    width: 100%;
+    height: 250px; 
+    background: linear-gradient(to right, #F2AD58 , black); 
+}
+
+#box_tecnologia{
+    width: 100%;
+    height: 350px; 
+    background-color: rosybrown;
+    background-image: url(../imagens/retro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tecnologia_descricao{
+    width: 100%;
+    height: 250px; 
+    background: linear-gradient(to right, #F2AD58 , black); 
+}
+
+#box_retro{
+    width: 100%;
+    height: 350px; 
+    background-color: darkred;
+    background-image: url(../imagens/tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+#retro_descricao{
+    width: 100%;
+    height: 250px; 
+    background: linear-gradient(to right, #F2AD58 , black); 
+}
+
+
+.texto_servico{
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: 22px;
+   
+}
+
+
